@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^senra1\.eu$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.senra1\.eu$
+RewriteRule ^/?$ "https\:\/\/senra1\.eu\/" [R=301,L]
+

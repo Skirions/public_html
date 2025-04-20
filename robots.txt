@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.htpasswds/
+Disallow: /.well-known/
+Allow: /Backup/mobile/
+Allow: /Pass/mobile/
+Sitemap: https://www.senra1.eu/sitemap.xml
